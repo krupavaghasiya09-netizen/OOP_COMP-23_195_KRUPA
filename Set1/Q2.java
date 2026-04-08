@@ -18,7 +18,8 @@ public class LinearEquationSolver {
 
         if (D == 0) {
             System.out.println("No unique solution (D = 0)");
-        } else {
+        } 
+        else {
             double x = Dx / D;
             double y = Dy / D;
 
